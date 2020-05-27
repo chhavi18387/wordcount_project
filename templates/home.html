@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wordcount</title>
+</head>
+<body>
+	THIS IS HTML FAM!
+	<br/>
+	<a href="{% url 'aboutt' %}">About</a>
+	<form action="{% url 'count'  %}">
+		<textarea cols="40" rows="10" name="fulltext"></textarea>
+		<br/>
+		<input type="submit" value="Count!" name="input">
+	</form>
+</body>
+</html>
